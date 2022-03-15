@@ -1,0 +1,44 @@
+.edit-page__benchmark-form {
+  & > td {
+    padding: 0 !important;
+  }
+
+  input {
+    width: 100%;
+    border: none;
+    text-align: center;
+  }
+
+  h2 {
+    font-weight: 800;
+    text-transform: uppercase;
+  }
+}
+
+.edit-page__performance {
+  width: 100%;
+
+  .table-bordered td {
+    padding: 3px 10px;
+    font-weight: 800;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  input {
+    width: 100%;
+    border: none;
+    text-align: center;
+    // color: red;
+  }
+  input.error {
+    color: red;
+  }
+
+  h2 {
+    font-weight: 800;
+    text-transform: uppercase;
+  }
+}

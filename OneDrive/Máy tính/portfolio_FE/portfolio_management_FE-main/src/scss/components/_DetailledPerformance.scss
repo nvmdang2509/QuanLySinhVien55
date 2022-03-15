@@ -1,0 +1,39 @@
+.detailed-performance {
+  padding: 2rem 1.5rem;
+  background-color: gainsboro;
+
+  &__performance {
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: 8px;
+
+    h2 {
+      margin-bottom: 1rem;
+      text-transform: uppercase;
+      font-weight: 600;
+    }
+  }
+
+  &__chart {
+    background-color: #fff !important;
+    margin-top: 2rem;
+    padding: 2rem;
+    border-radius: 8px;
+
+    &__left {
+      background-color: #fff;
+      margin-right: 1rem;
+    }
+  }
+
+  &__benchmark {
+    background-color: #fff !important;
+    margin-top: 2rem;
+    padding: 2rem;
+    border-radius: 8px;
+
+    h2 {
+      font-weight: 600;
+    }
+  }
+}

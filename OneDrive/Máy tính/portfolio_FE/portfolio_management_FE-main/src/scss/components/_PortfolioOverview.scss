@@ -1,0 +1,43 @@
+.portfolio-overview {
+  padding: 20px;
+  background-color: gainsboro;
+
+  &__left h2,
+  &__right h2 {
+    font-weight: 600;
+    color: blue;
+    font-size: 3rem;
+    margin-bottom: 2.5rem;
+  }
+
+  &__left {
+    margin-right: 2rem;
+
+    &__chart {
+      background-color: white;
+      padding: 0.5rem;
+    }
+  }
+
+  &__right {
+    & > * ~ * {
+      margin-top: 2rem;
+    }
+
+    p {
+      font-size: 2.5rem;
+      color: green;
+      font-weight: 600;
+      text-transform: uppercase;
+    }
+
+    span {
+      font-weight: 600;
+      font-size: 1.2rem;
+    }
+
+    small {
+      color: green;
+    }
+  }
+}
